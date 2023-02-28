@@ -91,14 +91,14 @@ const SingleCocktail = () => {
 						{glass}
 					</p>
 					<p>
-						<span className="drink-data">instructions: </span>
-						{instructions}
-					</p>
-					<p>
 						<span className="drink-data">ingredients :</span>
 						{ingredients.map((item, index) => {
 							return item ? <span key={index}>{item}</span> : null;
 						})}
+					</p>
+					<p>
+						<span className="drink-data">instructions: </span>
+						{instructions}
 					</p>
 				</div>
 			</div>
